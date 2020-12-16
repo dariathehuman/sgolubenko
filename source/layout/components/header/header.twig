@@ -1,0 +1,44 @@
+{% set navList = [
+    {
+        text: 'Юридические&nbsp;услуги',
+        href: '#servises'
+    },
+    {
+        text: 'Обо&nbsp;мне',
+        href: '#about'
+    },
+    {
+        text: 'Цены',
+        href: '#prices'
+    },
+    {
+        text: 'Блог',
+        href: '/blog'
+    },
+    {
+        text: 'Кейсы',
+        href: '#cases'
+    },
+    {
+        text: 'Контакты',
+        href: '#contacts'
+    }
+] %}
+
+<header class="header">
+    <div class="container">
+        <div class="logo">
+            <p>Сергей Голубенко <br>
+                Юрист</p>
+        </div>
+        <nav class="nav">
+            <ul class="nav__list">
+                {% for item in navList %}
+                    <li class="nav__list-item">
+                        <a href="{{ item.href }}">{{ item.text }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
+</header>

@@ -11,8 +11,18 @@ const svgstore = require('gulp-svgstore');
 const twig = require('gulp-twig');
 const uglify = require('gulp-uglify-es').default;
 
+const paths = {
+    src: {
+        images:     'source/images/',
+        components: 'source/layout/components/',
+        layout:     'source/layout/',
+        header:     'source/layout/header'
+    },
+    build: 'build/',
+};
+
 gulp.task('twig', function() {
-    gulp.src('source/layout/*.twig')
+    gulp.src([`${paths.src.layout}*.twig`], [`${paths.src.header}*.twig`])
       .pipe(twig())
       .pipe(gulp.dest('source/'))
       .pipe(browserSync.reload({ stream: true }))
@@ -39,7 +49,7 @@ gulp.task('css', function () {
         .pipe(concat('libs.scss'))
         .pipe(gulp.dest('source/scss'))
         .pipe(browserSync.reload({ stream: true }))
-})
+});
 
 gulp.task('html', function () {
     return gulp.src('source/*.html')
@@ -76,7 +86,7 @@ gulp.task('browser-sync', function () {
 
 gulp.task('clean', async function () {
     del.sync('build')
-})
+});
 
 gulp.task('export', function () {
     const buildHtml = gulp.src('source/**/*html')
@@ -145,4 +155,4 @@ gulp.task('svg', function () {
 
 gulp.task('build', gulp.series('clean', 'images', 'script', 'svg', 'export'));
 
-gulp.task('default', gulp.parallel('css', 'scss', 'js', 'twig', 'browser-sync', 'watch'));
+gulp.task('default', gulp.parallel('twig','css', 'scss', 'js', 'browser-sync', 'watch'));

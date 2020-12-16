@@ -1,0 +1,50 @@
+.header {
+  @include space(padding-top, vr-8);
+  @include font($nav...);
+  color: $white;
+  background-color: $dark-blue;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.logo p {
+  margin: 0;
+}
+
+.nav__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 42px;
+  max-width: 877px;
+  list-style: none;
+  padding: 0;
+
+  @include query($lg) {
+    grid-column-gap: 40px;
+    max-width: 772px;
+  }
+
+  @include query($md) {
+    grid-column-gap: 24px;
+    max-width: 597px;
+  }
+
+  @include query($sm) {
+    grid-column-gap: 16px;
+    max-width: 462px;
+  }
+
+  a {
+    color: $white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $yellow;
+    }
+  }
+}

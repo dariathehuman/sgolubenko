@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    {% set title = 'Сергей Голубенко – Главная' %}
+    {% include '/components/head.twig' with {title: title, css: css} %}
+</head>
+
+{% block content %}
+
+<body>
+
+{% include '/components/header/header.twig' %}
+
+
+{% endblock %}
+</body>
+</html>

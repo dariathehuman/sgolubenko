@@ -1,0 +1,20 @@
+.container {
+  max-width: 1580px;
+  margin: 0 auto;
+
+  @include query($xl) {
+    max-width: 1216px;
+  }
+
+  @include query($lg) {
+    max-width: 1120px;
+  }
+
+  @include query($md) {
+    max-width: 944px;
+  }
+
+  @include query($sm) {
+    max-width: 704px;
+  }
+}

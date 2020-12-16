@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "Gill Sans";
+  font-style: normal;
+  src: url(../fonts/GillSans.woff2),
+  url(../fonts/GillSans.woff);
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  font-weight: 300;
+  src: url(../fonts/GillSans-Light.woff2),
+  url(../fonts/GillSans-Light.woff);
+}
+
+$gill-sans: "Gill Sans", Helvetica, Arial, sans-serif;
+
+$title-h1: (
+        $gill-sans,
+        normal,
+        400,
+        (
+                "1920": 50px,
+                "1280": 40px,
+                "768": 34px,
+                "320": 24px,
+        ),
+        (
+                "1920": 58px,
+                "1280": 48px,
+                "768": 38px,
+                "320": 28px,
+        )
+);
+
+$title-h2: (
+        $gill-sans,
+        normal,
+        400,
+        (
+                "1920": 38px,
+                "1440": 34px,
+                "1024": 30px,
+                "768": 22px,
+                "320": 20px,
+        ),
+        (
+                "1920": 44px,
+                "1440": 40px,
+                "1024": 34px,
+                "768": 26px,
+                "320": 24px,
+        )
+);
+
+$nav: (
+        $gill-sans,
+        normal,
+        400,
+        (
+                "1920": 28px,
+                "1280": 24px,
+                "1024": 20px,
+                "768": 16px,
+        ),
+        (
+                "1920": 32px,
+                "1280": 28px,
+                "1024": 24px,
+                "768": 20px,
+        )
+);
+
+@mixin font($family, $style, $weight, $size, $line-height) {
+  font-weight: $weight;
+  font-size: map-get($size, "1920");
+  line-height: map-get($line-height, "1920");
+  font-family: $family;
+  font-style: $style;
+
+  @include query($xl) {
+    font-size: map-get($size, "1440");
+    line-height: map-get($line-height, "1440");
+  }
+
+  @include query($lg) {
+    font-size: map-get($size, "1280");
+    line-height: map-get($line-height, "1280");
+  }
+
+  @include query($md) {
+    font-size: map-get($size, "1024");
+    line-height: map-get($line-height, "1024");
+  }
+
+  @include query($sm) {
+    font-size: map-get($size, "768");
+    line-height: map-get($line-height, "768");
+  }
+
+  @include query($xs) {
+    font-size: map-get($size, "320");
+    line-height: map-get($line-height, "320");
+  }
+}
+
+

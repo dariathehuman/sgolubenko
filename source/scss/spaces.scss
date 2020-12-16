@@ -1,0 +1,26 @@
+$spaces: (
+        vr-0:  (8px, 8px,  8px),
+        vr-1:  (8px, 16px, 16px),
+        vr-2:  (16px, 24px, 24px),
+        vr-3:  (24px, 32px, 32px),
+        vr-4:  (32px, 40px, 40px),
+        vr-5:  (32px, 48px, 48px),
+        vr-6:  (32px, 56px, 56px),
+        vr-7:  (48px, 64px, 64px),
+        vr-8:  (48px, 72px, 88px),
+        vr-9:  (56px, 80px, 96px),
+        vr-10: (56px, 88px, 104px),
+        vr-11: (56px, 104px, 112px)
+);
+
+@mixin space($direction, $vr) {
+  #{$direction}: nth(map-get($spaces, $vr), 3);
+
+  @include query($md) {
+    #{$direction}: nth(map-get($spaces, $vr), 2);
+  }
+
+  @include query($sm) {
+    #{$direction}: nth(map-get($spaces, $vr), 1);
+  }
+}
