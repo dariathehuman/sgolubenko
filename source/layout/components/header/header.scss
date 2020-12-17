@@ -1,18 +1,126 @@
 .header {
-  @include space(padding-top, vr-8);
-  @include font($nav...);
+  position: relative;
+  height: 100vh;
   color: $white;
   background-color: $dark-blue;
 
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  @include query($md) {
+    @include space(padding-bottom, vr-11);
+    height: auto;
+  }
+
+  @include query($xs) {
+    @include space(padding-bottom, vr-3);
+  }
+}
+
+.top-bar {
+  @include space(padding-top, vr-8);
+  @include space(padding-bottom, vr-11);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @include font($nav...);
+
+  @include query($xs) {
+    @include space(padding-bottom, vr-6);
+    position: relative;
   }
 }
 
 .logo p {
   margin: 0;
+}
+
+.toggle {
+  display: none;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  font-size: 0;
+  z-index: 4;
+
+  @include query($xs) {
+    display: block;
+  }
+}
+
+.toggle--opened {
+  top: 50px;
+  right: 18px;
+  padding: 0;
+  width: 21px;
+  height: 21px;
+  font-size: 0;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  z-index: 6;
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 26px;
+    background-color: $light-blue;
+    transition: all ease 0.3s;
+  }
+  &:before {
+    transform: rotate(-45deg);
+  }
+  &:after {
+    transform: rotate(45deg);
+  }
+}
+
+.toggle--closed {
+  padding: 0;
+  width: 38px;
+  height: 2px;
+  font-size: 0;
+  border: 0;
+  outline: 0;
+  background-color: $light-blue;
+  &:before,
+  &:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    width: inherit;
+    height: inherit;
+    background-color: inherit;
+    transition: all ease 0.3s;
+    border-radius: 5px;
+  }
+  &:before {
+    top: -9px;
+  }
+  &:after {
+    top: 9px;
+  }
+}
+
+.nav {
+  @include query($xs) {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    z-index: 5;
+    background-color: $dark-blue;
+    &--closed {
+      opacity: 0;
+      visibility: hidden;
+      transition: all ease 0.4s;
+    }
+    &--opened {
+      display: flex;
+      animation: fadeIn .3s
+    }
+  }
 }
 
 .nav__list {
@@ -38,7 +146,16 @@
     max-width: 462px;
   }
 
+  @include query($xs) {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+    margin: 0 auto;
+    height: 320px;
+    padding-top: 130px;
+  }
+
   a {
+    display: block;
     color: $white;
     text-decoration: none;
     transition: color 0.3s ease;
@@ -46,5 +163,146 @@
     &:hover {
       color: $yellow;
     }
+
+    @include query($xs) {
+      text-align: center;
+    }
+  }
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include query($xs) {
+    flex-direction: column;
+  }
+}
+
+.header__info {
+  width: 668px;
+  padding-left: 210px;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 56px;
+    left: 0;
+    width: 146px;
+    height: 3px;
+    background-color: $light-blue;
+  }
+
+  @include query($xl) {
+    width: 624px;
+    padding-left: 176px;
+
+    &:before {
+      width: 112px;
+    }
+  }
+
+  @include query($lg) {
+    width: 560px;
+  }
+
+  @include query($md) {
+    width: 496px;
+    padding-left: 128px;
+
+    &:before {
+      width: 64px;
+    }
+  }
+
+  @include query($sm) {
+    width: 464px;
+    padding-left: 0;
+
+    &:before {
+      display: none;
+    }
+  }
+
+  @include query($xs) {
+    width: auto;
+    order: 2;
+  }
+}
+
+.header__title {
+  @include font($title-h2...);
+  @include space(margin-bottom, vr-3);
+
+  @include query($xs) {
+    text-align: center;
+  }
+}
+
+.header__subtitle {
+  @include font($title-h3...);
+  @include space(margin-bottom, vr-3);
+
+  @include query($xs) {
+    text-align: center;
+  }
+}
+
+.header__img {
+  display: block;
+  width: 480px;
+
+  @include query($xl) {
+    width: 384px;
+  }
+
+  @include query($lg) {
+    width: 352px;
+  }
+
+  @include query($md) {
+    width: 304px;
+  }
+
+  @include query($sm) {
+    width: 224px;
+  }
+
+  @include query($xs) {
+    @include space(margin-bottom, vr-6);
+    width: 140px;
+  }
+}
+
+.arrow {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 64px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid $light-blue;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+
+  path {
+    stroke: $light-blue;
+  }
+
+  &:hover{
+    border-color: $yellow;
+
+    path {
+      stroke: $yellow;
+    }
+  }
+
+  @include query($lg) {
+    display: none;
   }
 }

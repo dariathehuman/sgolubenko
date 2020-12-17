@@ -16,5 +16,10 @@
 
   @include query($sm) {
     max-width: 704px;
+    padding: 0 20px;
   }
+}
+
+.container--nav {
+  padding: 0;
 }

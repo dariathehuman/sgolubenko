@@ -2,19 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa0d035-20a9-4be7-94ad-6d850436cc2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/layout/components/head.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/layout/components/header/header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/layout/components/header/header.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scss/colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scss/fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scss/grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scss/media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scss/spaces.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/layout/components/light-blue-button/light-blue-button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/layout/components/light-blue-button/light-blue-button.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/scss/extra.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/source/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/layout/components/head.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/components/head.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/layout/components/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/components/header/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/layout/components/header/header.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/components/header/header.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/layout/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/index.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/scss/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scss/grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/scss/grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scss/libs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/scss/libs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +58,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -66,7 +77,7 @@
       <workItem from="1608147632823" duration="509000" />
       <workItem from="1608148219061" duration="1141000" />
       <workItem from="1608150604480" duration="812000" />
-      <workItem from="1608151591848" duration="4458000" />
+      <workItem from="1608151591848" duration="18396000" />
     </task>
     <servers />
   </component>
@@ -95,6 +106,10 @@
       <screen x="0" y="23" width="1680" height="980" />
     </state>
     <state x="572" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.980@0.23.1680.980" timestamp="1608148176010" />
+    <state x="577" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608244349084">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state x="577" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.980@0.23.1680.980" timestamp="1608244349084" />
     <state width="1657" height="264" key="GridCell.Tab.0.bottom" timestamp="1608148192150">
       <screen x="0" y="23" width="1680" height="980" />
     </state>

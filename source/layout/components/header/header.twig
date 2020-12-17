@@ -27,18 +27,51 @@
 
 <header class="header">
     <div class="container">
-        <div class="logo">
-            <p>Сергей Голубенко <br>
-                Юрист</p>
+        <div class="top-bar">
+            <div class="logo">
+                <p>Сергей Голубенко <br>
+                    Юрист</p>
+            </div>
+            <button class="toggle toggle--closed"
+                    type="button"
+                    >Меню</button>
+            <nav class="nav nav--closed">
+                <ul class="nav__list">
+                    {% for item in navList %}
+                        <li class="nav__list-item">
+                            <a href="{{ item.href }}">{{ item.text }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </nav>
         </div>
-        <nav class="nav">
-            <ul class="nav__list">
-                {% for item in navList %}
-                    <li class="nav__list-item">
-                        <a href="{{ item.href }}">{{ item.text }}</a>
-                    </li>
-                {% endfor %}
-            </ul>
-        </nav>
+
+        <div class="header__inner">
+            <div class="header__content">
+                <div class="header__info">
+                    <h1 class="header__title">Представительство интересов в&nbsp;суде
+                        по&nbsp;гражданским и&nbsp;арбитражным делам
+                        в&nbsp;Новороссийске</h1>
+                    <h2 class="header__subtitle">Если спорную ситуацию не удается решить переговорами, остается один
+                        законный способ отстоять
+                        свои права — обратиться в суд</h2>
+                    {% set href = 'https://wa.me/79184784623' %}
+                    {% set text = 'Получить консультацию' %}
+                    {% include '../light-blue-button/light-blue-button.twig' with href: href,
+                        text: text %}
+                </div>
+                <picture>
+                    <source type="image/png" media="(max-width: 1279px)" srcset="../../../images/lawyer-small.png">
+                    <img class="header__img" src="../../../images/lawyer.png" alt="Фото Сергея Голубенко">
+                </picture>
+            </div>
+
+        </div>
     </div>
+    <a class="arrow" href="#services">
+        <svg width="9" height="27" viewBox="0 0 9 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.5 26V1" stroke="#000000" stroke-linecap="round"/>
+            <path d="M1 22.5L4.5 26L8 22.5" stroke="#000000" stroke-linecap="round"/>
+        </svg>
+    </a>
 </header>
