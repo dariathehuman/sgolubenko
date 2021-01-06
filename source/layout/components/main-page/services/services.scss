@@ -15,6 +15,24 @@
   grid-row-gap: 40px;
   padding: 0;
   list-style: none;
+
+  @include query($xl) {
+    grid-column-gap: 32px;
+  }
+
+  @include query($md) {
+    grid-column-gap: 16px;
+  }
+
+  @include query($sm) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include query($xs) {
+    grid-template-columns: 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 32px;
+  }
 }
 
 .services-item {
@@ -28,7 +46,6 @@
   background-color: $white;
 
   &__header {
-    @include space(margin-bottom, vr-2);
     display: flex;
     align-items: center;
   }
@@ -42,7 +59,7 @@
     @include space(padding-left, vr-2);
     @include font($p1-black...);
     color: $dark-blue;
-    transition: all 0.3s ease;
+    transition: color 0.3s ease, fill 0.3s ease;
   }
 
   a {
@@ -61,10 +78,57 @@
   &:nth-child(4),
   &:nth-child(6) {
     height: 298px;
+
+    @include query($md) {
+      height: 400px;
+    }
+  }
+
+  @include query($sm) {
+    &:nth-child(1),
+    &:nth-child(2) {
+      height: 334px;
+    }
+
+    &:nth-child(3),
+    &:nth-child(4) {
+      height: 286px;
+    }
+
+    &:nth-child(5) {
+      grid-column: 1 / 3;
+
+      .services-item__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    &:nth-child(6) {
+      grid-column: 1 / 3;
+      justify-self: center;
+      width: 294px;
+      height: 238px;
+    }
+  }
+
+  @include query($xs) {
+    &:nth-child(1n) {
+      width: auto;
+      height: auto;
+      grid-column: auto;
+    }
+
+    &:nth-child(5) {
+      .services-item__list {
+        grid-template-columns: 1fr;
+      }
+    }
   }
 }
 
 .services-item__list {
+  @include space(margin-top, vr-2);
   padding: 0;
   list-style: none;
 }
