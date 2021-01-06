@@ -1,11 +1,12 @@
 @import "libs";
-@import "extra";
 @import "colors";
 @import "fonts";
 @import "media";
 @import "spaces";
 @import "grid";
+@import "extra";
 
 
-@import "../layout/components/header/header";
-@import "../layout/components/light-blue-button/light-blue-button";
+@import "../layout/components/main-page/header/header";
+@import "../layout/components/main-page/services/services";
+@import "../layout/components/color-button/color-button";

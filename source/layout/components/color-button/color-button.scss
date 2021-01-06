@@ -1,4 +1,4 @@
-.light-blue-button {
+.button {
   display: block;
   width: 300px;
   padding: 16px 20px;
@@ -6,14 +6,23 @@
   font-size: 20px;
   line-height: 24px;
   text-align: center;
-  color: $dark-blue;
-  background-color: $light-blue;
   border-radius: 10px;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 
+  &--light-blue {
+    color: $dark-blue;
+    background-color: $light-blue;
+  }
+
+  &--dark-blue {
+    color: $light-blue;
+    background-color: $dark-blue;
+  }
+
   &:hover {
+    color: $dark-blue;
     background-color: $yellow;
   }
 

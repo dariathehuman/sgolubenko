@@ -93,6 +93,40 @@ $nav: (
         )
 );
 
+$p1-black: (
+        $gill-sans,
+        normal,
+        700,
+        (
+                "1920": 20px,
+                "1440": 18px,
+                "320": 14px
+        ),
+        (
+                "1920": 24px,
+                "1440": 22px,
+                "320": 18px
+        )
+);
+
+$p1: (
+        $gill-sans,
+        normal,
+        300,
+        (
+                "1920": 20px,
+                "1440": 18px,
+                "768": 16px,
+                "320": 14px
+        ),
+        (
+                "1920": 24px,
+                "1440": 22px,
+                "768": 20px,
+                "320": 18px
+        )
+);
+
 @mixin font($family, $style, $weight, $size, $line-height) {
   font-weight: $weight;
   font-size: map-get($size, "1920");

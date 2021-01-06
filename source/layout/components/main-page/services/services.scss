@@ -1,0 +1,115 @@
+.services {
+  @include space(padding-top, vr-8);
+  @include space(padding-bottom, vr-7);
+
+  &__title {
+    @include space(margin-bottom, vr-8);
+  }
+}
+
+.services__list {
+  @include space(margin-bottom, vr-7);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 70px;
+  grid-row-gap: 40px;
+  padding: 0;
+  list-style: none;
+}
+
+.services-item {
+  @include space(padding-top, vr-4);
+  @include space(padding-bottom, vr-4);
+  @include space(padding-right, vr-3);
+  @include space(padding-left, vr-3);
+  border: 1px solid $dark-blue;
+  box-shadow: 2px 4px 9px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  background-color: $white;
+
+  &__header {
+    @include space(margin-bottom, vr-2);
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    fill: $dark-blue;
+    transition: all 0.3s ease;
+  }
+
+  &__title {
+    @include space(padding-left, vr-2);
+    @include font($p1-black...);
+    color: $dark-blue;
+    transition: all 0.3s ease;
+  }
+
+  a {
+    text-decoration: none;
+    &:hover {
+      .services-item__icon {
+        fill: $blue;
+      }
+
+      .services-item__title {
+        color: $blue;
+      }
+    }
+  }
+
+  &:nth-child(4),
+  &:nth-child(6) {
+    height: 298px;
+  }
+}
+
+.services-item__list {
+  padding: 0;
+  list-style: none;
+}
+
+.services-subitem {
+  @include space(margin-bottom, vr-0);
+  @include font($p1...);
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  grid-gap: 16px;
+  align-items: center;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  span {
+    position: relative;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid $dark-blue;
+    transform: rotate(45deg);
+    transition: border-color 0.3s ease;
+  }
+
+  a {
+    display: block;
+    color: $dark-blue;
+    transition: color 0.3s ease;
+  }
+
+  &:hover {
+    a {
+      color: $blue;
+    }
+
+    span {
+      border-color: $blue;
+    }
+  }
+}
+
+.services__btn {
+  @include space(margin-bottom, vr-7);
+  display: flex;
+  justify-content: center;
+}

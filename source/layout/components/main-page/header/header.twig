@@ -57,12 +57,12 @@
                         свои права — обратиться в суд</h2>
                     {% set href = 'https://wa.me/79184784623' %}
                     {% set text = 'Получить консультацию' %}
-                    {% include '../light-blue-button/light-blue-button.twig' with href: href,
-                        text: text %}
+                    {% set color = 'light-blue' %}
+                    {% include '../../color-button/color-button.twig' with href: href, text: text, color: color %}
                 </div>
                 <picture>
-                    <source type="image/png" media="(max-width: 1279px)" srcset="../../../images/lawyer-small.png">
-                    <img class="header__img" src="../../../images/lawyer.png" alt="Фото Сергея Голубенко">
+                    <source type="image/png" media="(max-width: 1279px)" srcset="../../../../images/lawyer-small.png">
+                    <img class="header__img" src="../../../../images/lawyer.png" alt="Фото Сергея Голубенко">
                 </picture>
             </div>
 

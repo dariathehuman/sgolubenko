@@ -1,0 +1,221 @@
+{% set services = [
+    {
+        title: 'Услуги семейного юриста',
+        href: '/error',
+        icon: 'divorce',
+        list: [
+        {
+            text: 'оформление развода',
+            href: '/error'
+        },
+        {
+            text: 'выплата алиментов, алиментные соглашения',
+            href: '/error'
+        },
+        {
+            text: 'раздел совместно нажитого имущества',
+            href: '/error'
+        },
+        {
+            text: 'споры об установлении отцовства',
+            href: '/error'
+        },
+        {
+            text: 'споры о месте жительства и праве опеки над детьми',
+            href: '/error'
+        },
+        {
+            text: 'признание недееспособности и установлении опеки над пожилыми родственниками',
+            href: '/error'
+        }
+    ]
+    },
+    {
+        title: 'Услуги автоюриста',
+        href: '/error',
+        icon: 'car',
+        list: [
+        {
+            text: 'споры о виновности в ДТП',
+            href: '/error'
+        },
+        {
+            text: 'споры со страховыми компаниями о размерах компенсаций',
+            href: '/error'
+        },
+        {
+            text: 'споры с органами ГИБДД',
+            href: '/error'
+        },
+        {
+            text: 'споры о размерах возмещения вреда здоровью, причиненного в ДТП',
+            href: '/error'
+        },
+        {
+            text: 'сопровождение сделок',
+            href: '/error'
+        },
+        {
+            text: 'споры с автосалонами, автомастерскими',
+            href: '/error'
+        }
+    ]
+    },
+    {
+        title: 'Юридические услуги в трудовых спорах',
+        href: '/error',
+        icon: 'bag',
+        list: [
+        {
+            text: 'восстановление на рабочем месте после незаконного увольнения',
+            href: '/error'
+        },
+        {
+            text: 'изменение формулировки причины увольнения',
+            href: '/error'
+        },
+        {
+            text: 'истребование незаконно удержанной заработной платы',
+            href: '/error'
+        },
+        {
+            text: 'восстановление на рабочем месте',
+            href: '/error'
+        },
+        {
+            text: 'взыскание материального ущерба с работника',
+            href: '/error'
+        }
+    ]
+    },
+    {
+        title: 'Услуги юриста в исполнительном производстве',
+        href: '/error',
+        icon: 'list',
+        list: [
+        {
+            text: 'возбуждение и сопровождение исполнительного производства',
+            href: '/error'
+        },
+        {
+            text: 'получение исполнительных документов',
+            href: '/error'
+        },
+        {
+            text: 'оспаривание действий и бездействий сотрудников ФССП',
+            href: '/error'
+        },
+        {
+            text: 'представление интересов должника и кредитора в суде',
+            href: '/error'
+        }
+    ]
+    },
+    {
+        title: 'Услуги юриста по жилищным спорам',
+        href: '/error',
+        icon: 'house',
+        list: [
+        {
+            text: 'признание права собственности на жилые помещения',
+            href: '/error'
+        },
+        {
+            text: 'признание права пользования жилым помещением',
+            href: '/error'
+        },
+        {
+            text: 'определение порядка пользования жилым помещением',
+            href: '/error'
+        },
+        {
+            text: 'выделение доли в праве собственности на жилое помещение',
+            href: '/error'
+        },
+        {
+            text: 'выселение',
+            href: '/error'
+        },
+        {
+            text: 'узаконивание самовольной постройки и споры, связанные с ней',
+            href: '/error'
+        },
+        {
+            text: 'истребование имущества из чужого незаконного владения',
+            href: '/error'
+        },
+        {
+            text: 'устранение препятствий в пользовании нежилым/жилым помещением',
+            href: '/error'
+        },
+        {
+            text: 'споры, связанные с наймом жилых помещений',
+            href: '/error'
+        }
+    ]
+    },
+    {
+        title: 'Юридическая помощь в наследственных спорах',
+        href: '/error',
+        icon: 'glasses',
+        list: [
+        {
+            text: 'принятие/отказ от наследства',
+            href: '/error'
+        },
+        {
+            text: 'включение имущества в наследственную массу',
+            href: '/error'
+        },
+        {
+            text: 'признание наследников недостойными',
+            href: '/error'
+        },
+        {
+            text: 'оспаривание действий нотариуса',
+            href: '/error'
+        },
+        {
+            text: 'установление родства',
+            href: '/error'
+        }
+    ]
+    }
+] %}
+
+<section class="services" id="services">
+    <div class="container">
+        <h2 class="services__title title">Услуги для физических лиц</h2>
+        <ul class="services__list">
+            {% for item in services %}
+                <li class="services__item services-item">
+                    <a href="{{ item.href }}">
+                        <header class="services-item__header">
+                            <svg class="services-item__icon" width="50" height="50">
+                                <use xlink:href="images/icons/sprite.svg#{{ item.icon }}"></use>
+                            </svg>
+                            <h3 class="services-item__title">{{ item.title }}</h3>
+                        </header>
+                    </a>
+                    <ul class="services-item__list">
+                        {% for subitem in item.list %}
+                            <li class="services-item__subitem services-subitem">
+                                <span></span>
+                                <a href="{{ subitem.href }}">
+                                    {{ subitem.text }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% endfor %}
+        </ul>
+
+        <div class="services__btn">
+            {% set href = 'https://wa.me/79184784623' %}
+            {% set text = 'Получить консультацию' %}
+            {% set color = 'dark-blue' %}
+            {% include '../../color-button/color-button.twig' with href: href, text: text, color: color %}
+        </div>
+    </div>
+</section>
+

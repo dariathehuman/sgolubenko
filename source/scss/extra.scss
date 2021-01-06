@@ -6,3 +6,26 @@ h1,h2,h3,h4,h5,h6,p {
   margin: 0;
 }
 
+.title {
+  @include font($title-h2...);
+  position: relative;
+  padding-left: 100px;
+  color: $dark-blue;
+  &:before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 80px;
+    height: 2px;
+    background-color: $dark-blue;
+  }
+
+  @include query($sm) {
+    padding-left: 0;
+    &:before {
+      display: none;
+    }
+  }
+}
