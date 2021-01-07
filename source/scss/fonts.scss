@@ -127,6 +127,24 @@ $p1: (
         )
 );
 
+$p2: (
+        $gill-sans,
+        normal,
+        300,
+        (
+                "1920": 28px,
+                "1024": 24px,
+                "768": 20px,
+                "320": 14px
+        ),
+        (
+                "1920": 32px,
+                "1024": 28px,
+                "768": 24px,
+                "320": 16px
+        )
+);
+
 @mixin font($family, $style, $weight, $size, $line-height) {
   font-weight: $weight;
   font-size: map-get($size, "1920");

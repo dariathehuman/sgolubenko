@@ -1,7 +1,7 @@
 {% set navList = [
     {
         text: 'Юридические&nbsp;услуги',
-        href: '#servises'
+        href: '#services'
     },
     {
         text: 'Обо&nbsp;мне',
@@ -58,11 +58,11 @@
                     {% set href = 'https://wa.me/79184784623' %}
                     {% set text = 'Получить консультацию' %}
                     {% set color = 'light-blue' %}
-                    {% include '../../color-button/color-button.twig' with href: href, text: text, color: color %}
+                    {% include '../../components/color-button/color-button.twig' with href: href, text: text, color: color %}
                 </div>
                 <picture>
-                    <source type="image/png" media="(max-width: 1279px)" srcset="../../../../images/lawyer-small.png">
-                    <img class="header__img" src="../../../../images/lawyer.png" alt="Фото Сергея Голубенко">
+                    <source type="image/png" media="(max-width: 1279px)" srcset="../../../images/lawyer-small.png">
+                    <img class="header__img" src="../../../images/lawyer.png" alt="Фото Сергея Голубенко">
                 </picture>
             </div>
 
