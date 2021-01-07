@@ -1,0 +1,44 @@
+.prices {
+  @include space(padding-top, vr-8);
+  @include space(padding-bottom, vr-7);
+
+  &__title {
+    @include space(margin-bottom, vr-7);
+  }
+}
+
+.prices__table {
+  @include font($price...);
+  width: 1380px;
+  margin: 0 auto;
+  color: $dark-blue;
+  border-collapse: collapse;
+  @include space(margin-bottom, vr-7);
+
+  td {
+    padding: 4px 0;
+    border-bottom: 1px solid $dark-blue;
+
+    &:last-child {
+      text-align: right;
+
+      @include query($xs) {
+        min-width: 106px;
+      }
+    }
+  }
+
+  @include query($xl) {
+    width: 100%;
+  }
+
+  @include query($xs) {
+    @include font($price-xs...);
+  }
+}
+
+.prices__btn {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

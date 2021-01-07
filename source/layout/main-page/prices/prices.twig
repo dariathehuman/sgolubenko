@@ -1,0 +1,48 @@
+{% set prices = [
+    {
+        name: 'Наименование услуги',
+        price: 'Cтоимость, руб.'
+    },
+    {
+        name: 'Устная консультация в офисе (возможен выезд)',
+        price: '0 руб. (бесплатно)'
+    },
+    {
+        name: 'Составление досудебной претензии',
+        price: '2 000 руб.'
+    },
+    {
+        name: 'Подготовка искового заявления, апелляционной жалобы',
+        price: 'от 3 000 руб.'
+    },
+    {
+        name: 'Представление интересов гражданина в суде (разовое)',
+        price: '5 000 руб.'
+    },
+    {
+        name: 'Ведение дела в суде в интересах физического лица',
+        price: 'от 15 000 руб.'
+    }
+] %}
+
+
+<section class="prices" id="prices">
+    <div class="container">
+        <h2 class="prices__title title">Цены</h2>
+        <table class="prices__table">
+            {% for item in prices %}
+            <tr>
+                <td>{{ item.name }}</td>
+                <td>{{ item.price }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+
+        <div class="prices__btn">
+            {% set href = 'https://wa.me/79184784623' %}
+            {% set text = 'Связаться с юристом' %}
+            {% set color = 'dark-blue' %}
+            {% include '../../components/color-button/color-button.twig' with href: href, text: text, color: color %}
+        </div>
+    </div>
+</section>

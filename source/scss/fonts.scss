@@ -93,6 +93,32 @@ $nav: (
         )
 );
 
+$price: (
+        $gill-sans,
+        normal,
+        400,
+        (
+                "1920": 28px,
+                "768": 20px,
+        ),
+        (
+                "1920": 32px,
+                "768": 24px,
+        )
+);
+
+$price-xs: (
+        $gill-sans,
+        normal,
+        300,
+        (
+                "320": 14px,
+        ),
+        (
+                "320": 16px,
+        )
+);
+
 $p1-black: (
         $gill-sans,
         normal,
