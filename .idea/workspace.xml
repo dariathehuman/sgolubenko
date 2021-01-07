@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa0d035-20a9-4be7-94ad-6d850436cc2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/layout/main-page/about/about.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/layout/main-page/about/about.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/source/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/layout/components/main-page/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/main-page/header/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/layout/components/main-page/header/header.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/main-page/header/header.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/layout/components/main-page/services/services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/main-page/services/services.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/layout/components/main-page/services/services.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/main-page/services/services.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/layout/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/index.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/layout/main-page/about/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/main-page/about/about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/layout/main-page/about/about.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/main-page/about/about.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/scss/fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +74,7 @@
       <workItem from="1608151591848" duration="18852000" />
       <workItem from="1608812383216" duration="2187000" />
       <workItem from="1609154808497" duration="81000" />
-      <workItem from="1609155032260" duration="26602000" />
+      <workItem from="1609155032260" duration="27824000" />
     </task>
     <servers />
   </component>
