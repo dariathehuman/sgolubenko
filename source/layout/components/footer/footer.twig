@@ -1,0 +1,64 @@
+{% set social = [
+    {
+        href: 'https://wa.me/79184784623',
+        icon: 'whatsapp',
+        text: 'Ватсапп'
+    },
+    {
+        href: 'https://t.me/sgolubenko',
+        icon: 'telegram',
+        text: 'Телеграм'
+    },
+    {
+        href: 'https://www.instagram.com/mobimen/',
+        icon: 'insta',
+        text: 'Инстаграм'
+    },
+    {
+        href: 'https://vk.com/sgolubenko',
+        icon: 'vk',
+        text: 'Вконтакте'
+    }
+] %}
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__info">
+            <div class="social">
+                <h2 class="social__title footer__title">Социальные сети</h2>
+                <ul class="social__list">
+                    {% for item in social %}
+                        <li class="social__item">
+                            <a href="{{ item.href }}">{{ item.text }}
+                                <svg class="services-item__icon" width="40" height="40">
+                                    <use xlink:href="images/icons/sprite.svg#{{ item.icon }}"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="footer__address address">
+                <h2 class="address__title footer__title">Адрес</h2>
+                <p class="address__text">353901, г. Новороссийск,
+                    ул. Сакко и Ванцетти, д. 1А</p>
+            </div>
+            <div class="footer__contacts contacts">
+                <h2 class="contacts__title footer__title">Контакты</h2>
+                <a href="tel:+79184784623" class="contacts__link">+7 (918) 478-46-23</a>
+                <a href="mailto:79184784623@yandex.ru" class="contacts__link">79184784623@yandex.ru</a>
+            </div>
+            <div class="footer__due due">
+                <h2 class="due__title footer__title">Режим работы</h2>
+                <p class="due__text">Пн - Пт <span class="due__weekday">9 - 17</span></p>
+                <p class="due__text">Сб - Вс <span class="due__weekend">выходной</span></p>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <p class="footer__copy footer__copy--dev">Design and development
+                <a href="http://dariaweb.pro/">dariaweb.pro</a>
+            </p>
+            <p class="footer__copy">Copyright 2020-2021, Сергей Голубенко</p>
+        </div>
+    </div>
+</footer>

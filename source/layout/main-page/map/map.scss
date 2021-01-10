@@ -1,0 +1,21 @@
+.map img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+
+  @include query($xl) {
+    height: 576px;
+  }
+
+  @include query($md) {
+    height: 480px;
+  }
+
+  @include query($sm) {
+    height: 400px;
+  }
+
+  @include query($xs) {
+    height: 568px;
+  }
+}

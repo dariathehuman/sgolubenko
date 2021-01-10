@@ -9,7 +9,7 @@
   border-radius: 10px;
   text-decoration: none;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 
   &--light-blue {
     color: $dark-blue;
