@@ -52,7 +52,9 @@ gulp.task('js', function () {
 });
 
 gulp.task('libs', function (){
-    return gulp.src([])
+    return gulp.src([
+        'node_modules/wow.js/dist/wow.js'
+    ])
     .pipe(concat('libs.min.js'))
     .pipe(uglify())
     .pipe(gulp.dest('source/js'))
@@ -145,4 +147,4 @@ gulp.task('svg', function () {
 
 gulp.task('build', gulp.series('clean', 'images', 'script', 'svg', 'export'));
 
-gulp.task('default', gulp.parallel('twig', 'css', 'scss', 'js', 'browser-sync', 'watch'));
+gulp.task('default', gulp.parallel('twig', 'css', 'scss', 'libs', 'js', 'browser-sync', 'watch'));

@@ -14,16 +14,32 @@
   &--light-blue {
     color: $dark-blue;
     background-color: $light-blue;
+
+    &:hover {
+      color: $dark-blue;
+      background-color: $yellow;
+    }
   }
 
   &--dark-blue {
     color: $light-blue;
     background-color: $dark-blue;
+
+    &:hover {
+      color: $dark-blue;
+      background-color: $yellow;
+    }
   }
 
-  &:hover {
+  &--transparent {
     color: $dark-blue;
-    background-color: $yellow;
+    background-color: $white;
+    border: 1px solid $dark-blue;
+
+    &:hover {
+      color: $light-blue;
+      background-color: $dark-blue;
+    }
   }
 
   @include query($sm) {

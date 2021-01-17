@@ -2,19 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa0d035-20a9-4be7-94ad-6d850436cc2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/images/map1280.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/map1920.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/map320-2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/map320.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/layout/components/footer/footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/layout/components/footer/footer.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/layout/main-page/map/map.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/layout/main-page/map/map.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/blog-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/blog-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/blog-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/js/libs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/layout/blog-page/blog-page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/layout/blog-page/blog-page.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/layout/blog.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/layout/components/inner-header/inner-header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/layout/components/inner-header/inner-header.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/source/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/layout/components/color-button/color-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/components/color-button/color-button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/layout/components/color-button/color-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/components/button/button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/layout/components/color-button/color-button.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/components/button/button.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/layout/components/footer/footer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/components/footer/footer.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/layout/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/index.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/layout/main-page/about/about.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/main-page/about/about.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/layout/main-page/header/header.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/main-page/header/header.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/layout/main-page/prices/prices.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/main-page/prices/prices.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/layout/main-page/services/services.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/main-page/services/services.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/scss/fonts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/scss/style.scss" afterDir="false" />
     </list>
@@ -53,7 +65,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/source/layout/components/dark-blue-button" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -84,7 +96,8 @@
       <workItem from="1608151591848" duration="18852000" />
       <workItem from="1608812383216" duration="2187000" />
       <workItem from="1609154808497" duration="81000" />
-      <workItem from="1609155032260" duration="38100000" />
+      <workItem from="1609155032260" duration="39085000" />
+      <workItem from="1610883277564" duration="4461000" />
     </task>
     <servers />
   </component>
@@ -140,9 +153,21 @@
       <screen x="0" y="23" width="1680" height="980" />
     </state>
     <state x="554" y="235" key="MultipleFileMergeDialog/0.23.1680.980@0.23.1680.980" timestamp="1608150332648" />
-    <state x="503" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1610284366560">
+    <state x="503" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1610886111123">
       <screen x="0" y="23" width="1680" height="980" />
     </state>
-    <state x="503" y="237" width="672" height="678" key="search.everywhere.popup/0.23.1680.980@0.23.1680.980" timestamp="1610284366560" />
+    <state x="503" y="237" width="672" height="678" key="search.everywhere.popup/0.23.1680.980@0.23.1680.980" timestamp="1610886111123" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/gulpfile.js</url>
+          <line>50</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

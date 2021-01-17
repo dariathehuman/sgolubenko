@@ -1,0 +1,26 @@
+.inner-header {
+  color: $white;
+  background-color: $dark-blue;
+
+  .top-bar {
+    @include space(padding-top, vr-7);
+    @include space(padding-bottom, vr-7);
+
+    @include query($xs) {
+      @include space(padding-top, vr-4);
+      @include space(padding-bottom, vr-4);
+    }
+  }
+
+  .logo {
+    a {
+      color: $light-blue;
+      text-decoration: none;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: $yellow;
+      }
+    }
+  }
+}

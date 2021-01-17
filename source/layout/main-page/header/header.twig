@@ -13,11 +13,11 @@
     },
     {
         text: 'Блог',
-        href: '/blog'
+        href: '/blog.html'
     },
     {
         text: 'Кейсы',
-        href: '#cases'
+        href: '/cases.html'
     },
     {
         text: 'Контакты',
@@ -26,7 +26,7 @@
 ] %}
 
 <header class="header">
-    <div class="container">
+    <div class="container animate__animated animate__fadeIn animate__delay-1s">
         <div class="top-bar">
             <div class="logo">
                 <p>Сергей Голубенко <br>
@@ -48,7 +48,7 @@
 
         <div class="header__inner">
             <div class="header__content">
-                <div class="header__info">
+                <div class="header__info animate__animated animate__fadeInLeft animate__delay-2s">
                     <h1 class="header__title">Представительство интересов в&nbsp;суде
                         по&nbsp;гражданским и&nbsp;арбитражным делам
                         в&nbsp;Новороссийске</h1>
@@ -58,17 +58,17 @@
                     {% set href = 'https://wa.me/79184784623' %}
                     {% set text = 'Получить консультацию' %}
                     {% set color = 'light-blue' %}
-                    {% include '../../components/color-button/color-button.twig' with href: href, text: text, color: color %}
+                    {% include '../../components/button/button.twig' with href: href, text: text, color: color %}
                 </div>
                 <picture>
                     <source type="image/png" media="(max-width: 1279px)" srcset="../../../images/lawyer-small.png">
-                    <img class="header__img" src="../../../images/lawyer.png" alt="Фото Сергея Голубенко">
+                    <img class="header__img animate__animated animate__fadeInRight animate__delay-2s"
+                         src="../../../images/lawyer.png" alt="Фото Сергея Голубенко">
                 </picture>
             </div>
-
         </div>
     </div>
-    <a class="arrow" href="#services">
+    <a class="arrow animate__animated animate__fadeIn animate__delay-3s" href="#services">
         <svg width="9" height="27" viewBox="0 0 9 27" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M4.5 26V1" stroke="#000000" stroke-linecap="round"/>
             <path d="M1 22.5L4.5 26L8 22.5" stroke="#000000" stroke-linecap="round"/>

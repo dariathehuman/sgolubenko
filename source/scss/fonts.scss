@@ -72,6 +72,24 @@ $title-h3: (
         )
 );
 
+$title-h4: (
+        $gill-sans,
+        normal,
+        400,
+        (
+                "1920": 38px,
+                "1440": 34px,
+                "768": 32px,
+                "320": 20px,
+        ),
+        (
+                "1920": 44px,
+                "1440": 40px,
+                "768": 36px,
+                "320": 24px,
+        )
+);
+
 $title-footer: (
         $gill-sans,
         normal,

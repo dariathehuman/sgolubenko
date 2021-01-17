@@ -10,3 +10,5 @@ menuBtn.addEventListener('click', function (evt) {
     menu.classList.toggle('nav--opened');
     container.classList.toggle('container--nav');
 });
+
+new WOW().init();
