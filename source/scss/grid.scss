@@ -16,6 +16,9 @@
 
   @include query($sm) {
     max-width: 704px;
+  }
+
+  @include query($xs) {
     padding: 0 20px;
   }
 }
