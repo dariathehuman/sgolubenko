@@ -29,7 +29,7 @@
                 <ul class="social__list">
                     {% for item in social %}
                         <li class="social__item">
-                            <a href="{{ item.href }}">{{ item.text }}
+                            <a href="{{ item.href }}" target="_blank">{{ item.text }}
                                 <svg class="services-item__icon" width="40" height="40">
                                     <use xlink:href="images/icons/sprite.svg#{{ item.icon }}"></use>
                                 </svg>
@@ -56,7 +56,7 @@
         </div>
         <div class="footer__copyright">
             <p class="footer__copy footer__copy--dev">Design and development
-                <a href="http://dariaweb.pro/">dariaweb.pro</a>
+                <a href="http://dariaweb.pro/" target="_blank">dariaweb.pro</a>
             </p>
             <p class="footer__copy">Copyright 2020-2021, Сергей Голубенко</p>
         </div>

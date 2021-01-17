@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa0d035-20a9-4be7-94ad-6d850436cc2f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/source/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/layout/error-page/error-page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/layout/error-page/error-page.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/layout/error.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/source/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/layout/blog-page/blog-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/blog-page/blog-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/layout/blog-page/blog-page.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/blog-page/blog-page.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/layout/components/inner-header/inner-header.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/components/inner-header/inner-header.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/layout/main-page/header/header.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/main-page/header/header.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scss/grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/scss/grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/layout/components/button/button.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/components/button/button.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/layout/components/footer/footer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/components/footer/footer.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/layout/main-page/services/services.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/main-page/services/services.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/scss/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +84,7 @@
       <workItem from="1608812383216" duration="2187000" />
       <workItem from="1609154808497" duration="81000" />
       <workItem from="1609155032260" duration="39085000" />
-      <workItem from="1610883277564" duration="6545000" />
+      <workItem from="1610883277564" duration="8310000" />
     </task>
     <servers />
   </component>

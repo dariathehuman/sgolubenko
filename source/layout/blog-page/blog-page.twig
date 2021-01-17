@@ -37,7 +37,7 @@
                     <h2 class="blog__item-title">{{ item.title }}</h2>
                     <p class="blog__item-text">{{ item.text }}</p>
                     <div class="blog__item-button">
-                        {% set href = {{ item.href }} %}
+                        {% set href = item.href %}
                         {% set text = 'Читать далее' %}
                         {% set color = 'transparent' %}
                         {% include '../components/button/button.twig' with href: href, text: text, color: color %}

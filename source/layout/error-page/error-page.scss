@@ -1,0 +1,28 @@
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 539px);
+  color: $light-blue;
+  background-color: $dark-blue;
+  h1 {
+    @include font($title-h1...);
+    text-align: center;
+
+    @include query($xs) {
+      margin: 48px 0;
+    }
+  }
+
+  @include query($md) {
+    height: calc(100vh - 496px);
+  }
+
+  @include query($sm) {
+    height: calc(100vh - 382px);
+  }
+
+  @include query($xs) {
+    height: auto;
+  }
+}
