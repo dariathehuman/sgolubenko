@@ -12,9 +12,12 @@ const twig = require('gulp-twig');
 const uglify = require('gulp-uglify-es').default;
 
 gulp.task('twig', async function() {
-    gulp.src('source/layout/*.twig')
+    gulp.src([
+        'source/layout/*.twig',
+        'source/layout/blog/**/*.twig'
+    ])
       .pipe(twig())
-      .pipe(gulp.dest('source/'))
+      .pipe(gulp.dest('source/pages/'))
       .pipe(browserSync.reload({ stream: true }))
   });
 

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    {% set title = 'Отмена и получение судебных приказов' %}
+    {% set css = '../../css/style.min.css' %}
+    {% include '../../components/head.twig' with {title: title, css: css} %}
+</head>
+
+{% block content %}
+
+<body>
+
+{% include '../../components/inner-header/inner-header.twig' %}
+{% include 'article.twig' %}
+{% include '../../components/footer/footer.twig' %}
+
+<script src="js/libs.min.js"></script>
+<script src="js/main.js"></script>
+
+{% endblock %}
+
+</body>
+</html>
