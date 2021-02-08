@@ -104,6 +104,9 @@ gulp.task('export', function () {
     const buildHtml = gulp.src('source/**/*html')
         .pipe(gulp.dest('build'));
 
+    const buildPages = gulp.src('source/articles/**/*html', 'source/blog/**/*html')
+        .pipe(gulp.dest('build'));
+
     const buildCss = gulp.src('source/assets/css/**/*css')
         .pipe(gulp.dest('build/assets/css'));
 
@@ -118,7 +121,7 @@ gulp.task('export', function () {
 });
 
 gulp.task('images', function () {
-    return gulp.src('source/assets/images/*.{png,jpg}')
+    return gulp.src('source/assets/images/*.{png,jpg,ico}')
         .pipe(imagemin([
             imagemin.mozjpeg({ quality: 80, progressive: true }),
             imagemin.optipng({ optimizationLevel: 3 }),

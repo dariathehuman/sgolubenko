@@ -2,35 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa0d035-20a9-4be7-94ad-6d850436cc2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/articles/housing-law/main/article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/assets/images/article-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/assets/images/article-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/js/min/libs.min.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/js/min/main.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/layout/articles/housing-law/main/article.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/layout/articles/housing-law/main/index.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/assets/images/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/assets/images/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/assets/images/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/articles/housing-law/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/articles/housing-law/main/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/assets/images/article-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/article-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/assets/images/article-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/article-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/assets/images/article-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/article-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/assets/images/blog-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/blog-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/assets/images/blog-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/blog-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/assets/images/blog-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/blog-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/assets/images/icons/bag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/icons/bag.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/assets/images/icons/car.svg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/icons/car.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/assets/images/icons/divorce.svg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/icons/divorce.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/assets/images/icons/glasses.svg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/icons/glasses.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/assets/images/icons/house.svg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/icons/house.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/assets/images/icons/insta.svg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/icons/insta.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/assets/images/icons/list.svg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/icons/list.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/assets/images/icons/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/icons/sprite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/assets/images/icons/telegram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/icons/telegram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/assets/images/icons/vk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/icons/vk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/assets/images/icons/whatsapp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/icons/whatsapp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/assets/images/lawyer-small.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/lawyer-small.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/assets/images/lawyer.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/lawyer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/assets/images/map1280.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/map1280.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/assets/images/map1920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/map1920.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/assets/images/map320-2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/map320-2x.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/assets/images/map320.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/map320.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/css/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/blog/court-order/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/blog/court-order/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/error.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/layout/blog-page/blog-page.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/blog-page/blog-page.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/layout/blog.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/blog.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/layout/blog/court-order/article.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/blog/court-order/article.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/layout/blog/court-order/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/blog/court-order/index.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/layout/components/footer/footer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/components/footer/footer.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/layout/error.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/error.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/layout/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/index.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/layout/main-page/header/header.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/main-page/header/header.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/layout/components/head.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/components/head.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/layout/main-page/services/services.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/main-page/services/services.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/pages/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/articles/housing-law/main/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/pages/court-order/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/blog/court-order/article.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/pages/court-order/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/blog/court-order/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/pages/error.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/pages/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scss/article.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/scss/article.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/scss/fonts.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,11 +84,11 @@
       <recent name="$PROJECT_DIR$/source/layout/components/dark-blue-button" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/assets/images" />
       <recent name="$PROJECT_DIR$/source/scss" />
       <recent name="$PROJECT_DIR$/source/assets" />
       <recent name="$PROJECT_DIR$/source/pages" />
       <recent name="$PROJECT_DIR$/source/layout/blog/court-order" />
-      <recent name="$PROJECT_DIR$/source/layout/components" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -100,7 +109,7 @@
       <workItem from="1609154808497" duration="81000" />
       <workItem from="1609155032260" duration="39085000" />
       <workItem from="1610883277564" duration="11442000" />
-      <workItem from="1612801069175" duration="12473000" />
+      <workItem from="1612801069175" duration="14858000" />
     </task>
     <servers />
   </component>
