@@ -1,0 +1,115 @@
+.article {
+  @include space(padding-top, vr-8);
+  @include space(padding-bottom, vr-8);
+  max-width: 1080px;
+
+  @include query($xl) {
+    max-width: 904px;
+  }
+
+  @include query($lg) {
+    max-width: 832px;
+  }
+
+  @include query($md) {
+    max-width: 704px;
+  }
+
+  @include query($sm) {
+    max-width: 100%;
+  }
+
+  @include query($xs) {
+    @include space(padding-top, vr-4);
+  }
+
+  &__block {
+    @include space(margin-bottom, vr-7);
+  }
+
+  &__title {
+    @include space(margin-bottom, vr-7);
+    @include font($title-h1...);
+    color: $dark-blue;
+
+    @include query($xs) {
+      @include space(margin-bottom, vr-4);
+    }
+  }
+
+  &__subtitle {
+    @include space(margin-bottom, vr-4);
+    @include font($title-h2...);
+    color: $dark-blue;
+  }
+
+  &__text {
+    @include font($p2...);
+    color: $black;
+    text-align: justify;
+  }
+
+  &__img {
+    @include space(margin-bottom, vr-4);
+    width: 1080px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+
+    @include query($xl) {
+      width: 904px;
+    }
+
+    @include query($lg) {
+      width: 832px;
+    }
+
+    @include query($md) {
+      width: 704px;
+      height: 400px;
+    }
+
+    @include query($sm) {
+      max-width: 100%;
+      height: 320px;
+    }
+
+    @include query($sm) {
+      max-width: 100%;
+      height: 200px;
+    }
+  }
+
+  .services-block {
+    @include space(margin-bottom, vr-4);
+    @include font($p2...);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 580px;
+
+    @include query($md) {
+      width: 478px;
+    }
+
+    @include query($sm) {
+      width: 425px;
+    }
+
+    @include query($xs) {
+      width: 100%;
+    }
+
+    img {
+      width: 120px;
+
+      @include query($sm) {
+        width: 100px;
+      }
+
+      @include query($xs) {
+        width: 80px;
+      }
+    }
+  }
+}

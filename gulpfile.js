@@ -17,7 +17,7 @@ gulp.task('twig', async function() {
         'source/layout/blog/**/*.twig'
     ])
       .pipe(twig())
-      .pipe(gulp.dest('source/pages/'))
+      .pipe(gulp.dest('source/'))
       .pipe(browserSync.reload({ stream: true }))
   });
 
@@ -30,7 +30,7 @@ gulp.task('scss', function () {
             cascade: false
         }))
         .pipe(rename({ suffix: '.min' }))
-        .pipe(gulp.dest('source/css'))
+        .pipe(gulp.dest('source/assets/css'))
         .pipe(browserSync.reload({ stream: true }))
 });
 
@@ -87,21 +87,21 @@ gulp.task('export', function () {
     const buildHtml = gulp.src('source/**/*html')
         .pipe(gulp.dest('build'));
 
-    const buildCss = gulp.src('source/css/**/*css')
-        .pipe(gulp.dest('build/css'));
+    const buildCss = gulp.src('source/assets/css/**/*css')
+        .pipe(gulp.dest('build/assets/css'));
 
     const buildJs = gulp.src('source/js/**/*js')
         .pipe(gulp.dest('build/js'));
 
-    const buildFonts = gulp.src('assets/fonts/**/*.*')
-        .pipe(gulp.dest('build/fonts'));
+    const buildFonts = gulp.src('source/assets/fonts/**/*.*')
+        .pipe(gulp.dest('build/assets/fonts'));
 
-    const icons = gulp.src('source/images/icons/sprite.svg')
-        .pipe(gulp.dest('build/images/icons'))
+    const icons = gulp.src('source/assets/images/icons/sprite.svg')
+        .pipe(gulp.dest('build/assets/images/icons'))
 });
 
 gulp.task('images', function () {
-    return gulp.src('source/images/*.{png,jpg}')
+    return gulp.src('source/assets/images/*.{png,jpg}')
         .pipe(imagemin([
             imagemin.mozjpeg({ quality: 80, progressive: true }),
             imagemin.optipng({ optimizationLevel: 3 }),
@@ -118,7 +118,7 @@ gulp.task('images', function () {
                 ]
             })
         ]))
-        .pipe(gulp.dest('build/images'))
+        .pipe(gulp.dest('build/assets/images'))
         .pipe(browserSync.reload({ stream: true }))
 });
 
@@ -130,23 +130,21 @@ gulp.task('script', function () {
 })
 
 gulp.task('sprite', function () {
-    return gulp.src("source/images/icons/*.svg")
+    return gulp.src("source/assets/images/icons/*.svg")
         .pipe(svgmin())
         .pipe(svgstore({
             inlineSvg: true,
             removeViewBox: false
         }))
         .pipe(rename("sprite.svg"))
-        .pipe(gulp.dest("source/images/icons"))
+        .pipe(gulp.dest("source/assets/images/icons"))
 });
 
 gulp.task('svg', function () {
-    return gulp.src('source/images/*.svg')
+    return gulp.src('source/assets/images/*.svg')
         .pipe(svgmin())
-        .pipe(gulp.dest('build/images'))
+        .pipe(gulp.dest('build/assets/images'))
 });
-
-
 
 gulp.task('build', gulp.series('clean', 'images', 'script', 'svg', 'export'));
 
