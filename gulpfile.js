@@ -14,12 +14,29 @@ const uglify = require('gulp-uglify-es').default;
 gulp.task('twig', async function() {
     gulp.src([
         'source/layout/*.twig',
-        'source/layout/blog/**/*.twig'
     ])
       .pipe(twig())
       .pipe(gulp.dest('source/'))
       .pipe(browserSync.reload({ stream: true }))
   });
+
+gulp.task('twig-blog', async function() {
+    gulp.src([
+        'source/layout/blog/**/*.twig',
+    ])
+        .pipe(twig())
+        .pipe(gulp.dest('source/blog'))
+        .pipe(browserSync.reload({ stream: true }))
+});
+
+gulp.task('twig-articles', async function() {
+    gulp.src([
+        'source/layout/articles/**/*.twig',
+    ])
+        .pipe(twig())
+        .pipe(gulp.dest('source/articles'))
+        .pipe(browserSync.reload({ stream: true }))
+});
 
 
 gulp.task('scss', function () {
@@ -67,7 +84,7 @@ gulp.task('libs', function (){
 gulp.task('watch', function () {
     gulp.watch('source/**/*.scss', gulp.parallel('scss'));
     gulp.watch('source/*.html', gulp.parallel('html'));
-    gulp.watch('source/layout/**/*.twig', gulp.parallel('twig'));
+    gulp.watch('source/layout/**/*.twig', gulp.parallel('twig', 'twig-blog', 'twig-articles'));
     gulp.watch('source/js/*.js', gulp.parallel('js'));
 });
 
@@ -148,4 +165,4 @@ gulp.task('svg', function () {
 
 gulp.task('build', gulp.series('clean', 'images', 'script', 'svg', 'export'));
 
-gulp.task('default', gulp.parallel('twig', 'css', 'scss', 'libs', 'js', 'browser-sync', 'watch'));
+gulp.task('default', gulp.parallel('twig', 'twig-blog', 'twig-articles', 'css', 'scss', 'libs', 'js', 'browser-sync', 'watch'));

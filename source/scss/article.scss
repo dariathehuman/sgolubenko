@@ -47,6 +47,11 @@
     @include font($p2...);
     color: $black;
     text-align: justify;
+
+    @include query($xs) {
+      font-size: 16px;
+      line-height: 19px;
+    }
   }
 
   &__img {
@@ -111,5 +116,131 @@
         width: 80px;
       }
     }
+  }
+
+  &__list {
+    @include font($p2...);
+    padding: 0;
+    list-style: none;
+
+    @include query($xs) {
+      font-size: 16px;
+      line-height: 19px;
+    }
+
+    li {
+      @include space(margin-bottom, vr-1);
+      display: grid;
+      grid-template-columns: 20px 1fr;
+      grid-gap: 16px;
+      align-items: center;
+      text-align: justify;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    li span {
+      position: relative;
+      left: 3px;
+      width: 10px;
+      height: 10px;
+      border: 2px solid $dark-blue;
+      transform: rotate(45deg);
+      transition: border-color 0.3s ease;
+    }
+  }
+}
+
+.other-articles {
+  @include space(margin-bottom, vr-9);
+
+  &__title {
+    @include space(margin-bottom, vr-7);
+    @include font($title-h2...);
+    color: $dark-blue;
+
+    @include query($xs) {
+      text-align: center;
+    }
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 70px;
+    list-style: none;
+    padding: 0;
+
+    @include query($xl) {
+      grid-gap: 32px;
+    }
+
+    @include query($md) {
+      grid-gap: 16px;
+    }
+
+    @include query($sm) {
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 16px;
+      grid-row-gap: 24px;
+    }
+
+    @include query($xs) {
+      grid-template-columns: 1fr;
+      grid-column-gap: 0;
+      grid-row-gap: 24px;
+    }
+  }
+
+  &__item {
+    @include space(padding-top, vr-4);
+    @include space(padding-bottom, vr-4);
+    @include space(padding-left, vr-3);
+    @include space(padding-right, vr-3);
+    border: 1px solid $dark-blue;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+
+    @include query($sm) {
+      &:last-child {
+        grid-column: 1 / 3;
+        justify-self: center;
+        width: 294px;
+      }
+    }
+
+    @include query($xs) {
+      &:last-child {
+        grid-column: auto;
+        width: auto;
+      }
+    }
+
+    &:hover {
+      .other-articles__subtitle,
+      .other-articles__text {
+        color: $light-blue;
+      }
+      background-color: $dark-blue;
+    }
+  }
+
+  &__subtitle {
+    @include space(margin-bottom, vr-3);
+    @include font($title-h3...);
+    color: $dark-blue;
+    transition: all 0.4s ease-in-out;
+  }
+
+  &__text {
+    @include font($p3...);
+    color: $black;
+    transition: all 0.4s ease-in-out;
+  }
+
+  a {
+    text-decoration: none;
   }
 }
