@@ -126,7 +126,7 @@
   @include font($copy...);
   display: flex;
   justify-content: space-between;
-  width: 60%;
+  width: 58%;
   color: $light-blue;
 
   @include query($sm) {

@@ -2,44 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa0d035-20a9-4be7-94ad-6d850436cc2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/assets/images/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/assets/images/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/assets/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/articles/housing-law/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/articles/housing-law/main/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/assets/images/article-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/article-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/assets/images/article-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/article-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/assets/images/article-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/article-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/assets/images/blog-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/blog-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/assets/images/blog-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/blog-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/assets/images/blog-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/blog-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/assets/images/icons/bag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/icons/bag.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/assets/images/icons/car.svg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/icons/car.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/assets/images/icons/divorce.svg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/icons/divorce.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/assets/images/icons/glasses.svg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/icons/glasses.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/assets/images/icons/house.svg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/icons/house.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/assets/images/icons/insta.svg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/icons/insta.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/assets/images/icons/list.svg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/icons/list.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/assets/images/icons/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/icons/sprite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/assets/images/icons/telegram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/icons/telegram.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/assets/images/icons/vk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/icons/vk.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/assets/images/icons/whatsapp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/icons/whatsapp.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/assets/images/lawyer-small.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/lawyer-small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/assets/images/lawyer.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/lawyer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/assets/images/map1280.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/map1280.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/assets/images/map1920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/map1920.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/assets/images/map320-2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/map320-2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/assets/images/map320.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/map320.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/blog/court-order/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/blog/court-order/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/error.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/layout/components/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/components/footer/footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/layout/components/footer/footer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/components/footer/footer.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/layout/components/head.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/components/head.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/layout/main-page/services/services.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/main-page/services/services.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/scss/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/layout/main-page/header/header.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/main-page/header/header.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/layout/main-page/map/map.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/main-page/map/map.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/layout/main-page/services/services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/main-page/services/services.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +86,8 @@
       <workItem from="1609154808497" duration="81000" />
       <workItem from="1609155032260" duration="39085000" />
       <workItem from="1610883277564" duration="11442000" />
-      <workItem from="1612801069175" duration="14858000" />
+      <workItem from="1612801069175" duration="15741000" />
+      <workItem from="1612982346199" duration="1038000" />
     </task>
     <servers />
   </component>
@@ -133,10 +111,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="439" y="177" key="#Inspections" timestamp="1608153381942">
+    <state x="439" y="177" key="#Inspections" timestamp="1612983150896">
       <screen x="0" y="23" width="1680" height="980" />
     </state>
-    <state x="439" y="177" key="#Inspections/0.23.1680.980@0.23.1680.980" timestamp="1608153381942" />
+    <state x="439" y="177" key="#Inspections/0.23.1680.980@0.23.1680.980" timestamp="1612983150896" />
     <state x="572" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608148176010">
       <screen x="0" y="23" width="1680" height="980" />
     </state>
@@ -165,6 +143,10 @@
       <screen x="0" y="23" width="1680" height="980" />
     </state>
     <state x="554" y="235" key="MultipleFileMergeDialog/0.23.1680.980@0.23.1680.980" timestamp="1608150332648" />
+    <state x="517" y="267" width="645" height="492" key="find.popup" timestamp="1612983423237">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state x="517" y="267" width="645" height="492" key="find.popup/0.23.1680.980@0.23.1680.980" timestamp="1612983423237" />
     <state x="503" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1612822214181">
       <screen x="0" y="23" width="1680" height="980" />
     </state>

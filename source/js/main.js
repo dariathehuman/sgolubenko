@@ -11,4 +11,8 @@ menuBtn.addEventListener('click', function (evt) {
     container.classList.toggle('container--nav');
 });
 
+const year = document.querySelector('.year');
+year.innerHTML = new Date().getFullYear();
+
+
 new WOW().init();
