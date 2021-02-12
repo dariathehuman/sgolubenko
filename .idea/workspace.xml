@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa0d035-20a9-4be7-94ad-6d850436cc2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/articles/housing-law/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/articles/housing-law/main/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/assets/images/icons/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/source/assets/images/icons/sprite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/blog/court-order/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/blog/court-order/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/layout/components/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/components/footer/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/layout/components/footer/footer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/components/footer/footer.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/layout/main-page/header/header.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/main-page/header/header.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/layout/main-page/map/map.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/main-page/map/map.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/layout/main-page/services/services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/layout/main-page/services/services.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/js/min/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/js/min/main.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +74,8 @@
       <workItem from="1609155032260" duration="39085000" />
       <workItem from="1610883277564" duration="11442000" />
       <workItem from="1612801069175" duration="15741000" />
-      <workItem from="1612982346199" duration="1038000" />
+      <workItem from="1612982346199" duration="2748000" />
+      <workItem from="1612985648700" duration="438000" />
     </task>
     <servers />
   </component>
