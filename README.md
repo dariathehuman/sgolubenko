@@ -1,4 +1,4 @@
-# 🧑🏻‍🚀🧑🏻‍⚖️ sgolubenko - personal website
+# 🧑🏻‍⚖️ sgolubenko - personal website
 
 ## Requirements
 
